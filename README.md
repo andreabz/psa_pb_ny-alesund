@@ -1,8 +1,6 @@
 # Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018.
 ![](https://zenodo.org/badge/DOI/10.5281/zenodo.4484122.svg "Zenodo DOI")
 
-![](https://zenodo.org/badge/DOI/10.5281/zenodo.4484137.svg "PM10 Dataset")
-
 ### Authors:
 Andrea Bazzano<sup>1,</sup>\*,
 Stefano Bertinetti<sup>1</sup>,
@@ -43,7 +41,7 @@ The code has been tested with R version 4.0.3, "Bunny-Wunnies Freak Out" The fol
 
 ## Instructions
 
-Before running the code, make sure the required R packages have been installed.  Set the R working directory to the location of this README file. Input data need to be downloaded from MISSING URL and saved in the `./dataset/` subdirectory of the R working directory, whereas figures generated running the code will be saved in the `./output/` subdirectory of the R working directory.
+Before running the code, make sure the required R packages have been installed.  Set the R working directory to the location of this README file. Input data need to be downloaded and saved in the `./dataset/` subdirectory of the R working directory, whereas figures generated running the code will be saved in the `./output/` subdirectory of the R working directory.
 
 Running the entire script will require few seconds on most computers.
 
@@ -57,7 +55,7 @@ Running the entire script will require few seconds on most computers.
 
 ### Step Three:
 
-- Downloads the raw data sources used in the analysis. These data are publicly available and the main dataset has been archived (doi = http://doi.org/10.5281/zenodo.4484137) for reproducibility. These data require less than 50 kB of space.
+- Downloads the raw data sources used in the analysis. These data are publicly available in the repository and the main dataset has been archived on Zenodo for reproducibility (doi = http://doi.org/10.5281/zenodo.4484137). Input data require less than 50 kB of space.
 
 ### Step Four: 
 
