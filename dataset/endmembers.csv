@@ -1,0 +1,21 @@
+#### Pb isotope ratio values for possible endmembers of atmospheric particulate reaching Ny-Ålesund
+#### pb20x20y columns should be read as 20xPb / 20yPb. U columns provide an estimated 95-confidence level measurement uncertainty. Nudge are graphical parameters.
+#### Asmerom 1993: Asmerom, Y., Jacobsen, S.B., 1993. The Pb isotopic evolution of the Earth: inferences from river water suspended loads. Earth and Planetary Science Letters 115, 245–256. https://doi.org/10.1016/0012-821X(93)90225-X
+#### Bazzano 2017: Bazzano, A., Ardini, F., Terol, A., Rivaro, P., Soggia, F., Grotti, M., 2017. Effects of the Atlantic water and glacial run-off on the spatial distribution of particulate trace elements in the Kongsfjorden. Marine Chemistry 191, 16–23. https://doi.org/10.1016/j.marchem.2017.02.007
+#### Bi 2017: Bi, X.-Y., Li, Z.-G., Wang, S.-X., Zhang, L., Xu, R., Liu, J.-L., Yang, H.-M., Guo, M.-Z., 2017. Lead Isotopic Compositions of Selected Coals, Pb/Zn Ores and Fuels in China and the Application for Source Tracing. Environ. Sci. Technol. 51, 13502–13508. https://doi.org/10.1021/acs.est.7b04119
+#### Eichler 2012: Eichler, A., Tobler, L., Eyrikh, S., Gramlich, G., Malygina, N., Papina, T., Schwikowski, M., 2012. Three Centuries of Eastern European and Altai Lead Emissions Recorded in a Belukha Ice Core. Environ. Sci. Technol. 46, 4323–4330. https://doi.org/10.1021/es2039954
+#### This work: Bazzano, A., Bertinetti, B., Ardini, F., Cappelletti, D., Grotti M., 2021. Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018. Atmosphere
+#### Missing values are reported as NA.
+reference,pb208206,pb207206,u208206,u207206,nudge_x,nudge_y,label,note
+Asmerom 1993,2.0357,0.8157,0.0357,0.0127,-0.002,0.02,"UCC
+ (Asmeron, 1993)",model
+Bazzano 2017,2.0535,0.8224,0.0102,0.0034,-0.003,0.03,"diamictite debris
+ (Bazzano, 2017)",regression
+Bazzano 2017,2.10032,0.8632,0.0023,0.0025,-0.02,0.03,"calculated anthropogenic
+ end-member",regression
+This work,2.04165,0.809752,0.0127,0.0119,0.01,-0.02,"calculated natural
+ end-member",regression on median
+Eichler 2012,2.1082,0.8674,0.0045,0.002,0.01,0.03,"Russian and Kazakhstan
+ Pb ores (Eichler, 2012)",weighted average
+Bi 2017,2.1025,0.8475,0.0035,0.0015,1,-1,"Chinese coals
+ (Bi, 2017)",weighted average

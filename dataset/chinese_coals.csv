@@ -1,0 +1,177 @@
+#### Pb isotope ratio values for Chinese coals from Bi, X.-Y., Li, Z.-G., Wang, S.-X., Zhang, L., Xu, R., Liu, J.-L., Yang, H.-M., Guo, M.-Z., 2017. Lead Isotopic Compositions of Selected Coals, Pb/Zn Ores and Fuels in China and the Application for Source Tracing. Environ. Sci. Technol. 51, 13502–13508. https://doi.org/10.1021/acs.est.7b04119
+#### pb20x20y should be read as 20xPb / 20yPb.
+#### Missing data are reported as NA.
+region,coal_type,ash_%,pb_mgkg,pb206204,pb206207,pb208206,pb207206
+Xinjiang,subbituminous,18.93,2.85,18.58,1.19,2.069,0.8403
+Xinjiang,bituminous,7.72,2.96,18.709,1.198,2.062,0.8347
+Xinjiang,subbituminous,13.24,2.44,18.714,1.199,2.059,0.834
+Xinjiang,subbituminous,21.47,2.97,18.552,1.19,2.069,0.8403
+Xinjiang,subbituminous,20.87,3.51,18.637,1.193,2.064,0.8382
+Xinjiang,subbituminous,18.37,6.77,18.604,1.192,2.067,0.8389
+Xinjiang,subbituminous,13.32,1.29,18.567,1.194,2.064,0.8375
+Xinjiang,bituminous,6.13,1.95,18.499,1.189,2.066,0.841
+Xinjiang,subbituminous,10.43,0.73,18.402,1.187,2.073,0.8425
+Xinjiang,subbituminous,15.82,2.68,18.324,1.182,2.075,0.846
+Xinjiang,subbituminous,6.21,2.02,19.098,1.22,2.019,0.8197
+Gansu,subbituminous,9.86,2.77,18.726,1.191,2.089,0.8396
+Central Inner Mongolia,subbituminous,24.82,27.66,17.699,1.144,2.148,0.8741
+Central Inner Mongolia,lignite,61.81,45.41,17.894,1.149,2.156,0.8703
+Central Inner Mongolia,subbituminous,25.38,35.16,17.762,1.149,2.143,0.8703
+Central Inner Mongolia,lignite,44.64,38.66,17.889,1.153,2.147,0.8673
+Central Inner Mongolia,subbituminous,28.39,21.21,17.92,1.156,2.168,0.8651
+Central Inner Mongolia,lignite,37.78,23.68,17.731,1.147,2.19,0.8718
+Central Inner Mongolia,subbituminous,20.2,6.1,17.845,1.15,2.151,0.8696
+Central Inner Mongolia,subbituminous,14.22,5.65,17.837,1.148,2.152,0.8711
+Central Inner Mongolia,bituminous,11.4,2.31,17.846,1.151,2.148,0.8688
+Central Inner Mongolia,bituminous,6.6,4.59,18.068,1.16,2.126,0.8621
+Central Inner Mongolia,subbituminous,16.28,4.08,18.489,1.186,2.079,0.8432
+Central Inner Mongolia,subbituminous,18.89,2.43,18.323,1.178,2.096,0.8489
+Central Inner Mongolia,bituminous,5.68,1.68,18.548,1.188,2.077,0.8418
+Central Inner Mongolia,bituminous,7.26,2.83,18.478,1.188,2.072,0.8418
+Eastern Inner Mongolia,subbituminous,18.53,4.58,18.43,1.186,2.081,0.8432
+Eastern Inner Mongolia,subbituminous,24.22,4.64,18.6,1.194,2.069,0.8375
+Eastern Inner Mongolia,subbituminous,17.45,3.73,18.526,1.187,2.091,0.8425
+Eastern Inner Mongolia,subbituminous,17.18,3.33,18.47,1.185,2.083,0.8439
+Eastern Inner Mongolia,subbituminous,24.04,4.66,18.495,1.185,2.088,0.8439
+Eastern Inner Mongolia,lignite,47.84,18.36,18.678,1.192,2.082,0.8389
+Eastern Inner Mongolia,subbituminous,36.24,13.89,18.758,1.204,2.049,0.8306
+Eastern Inner Mongolia,subbituminous,13.62,0.41,18.804,1.194,2.076,0.8375
+Eastern Inner Mongolia,subbituminous,25.99,5.92,18.523,1.188,2.078,0.8418
+Eastern Inner Mongolia,lignite,30.8,7.08,18.516,1.182,2.087,0.846
+Eastern Inner Mongolia,subbituminous,14.85,4.8,18.47,1.189,2.074,0.841
+Eastern Inner Mongolia,subbituminous,8.16,2.67,18.53,1.185,2.081,0.8439
+Eastern Inner Mongolia,subbituminous,41.8,11.93,18.524,1.19,2.071,0.8403
+Eastern Inner Mongolia,subbituminous,12.88,1.67,18.411,1.193,2.069,0.8382
+Shaanxi,bituminous,6.4,6.03,18.367,1.179,2.125,0.8482
+Shaanxi,bituminous,7.95,2.1,18.272,1.17,2.1,0.8547
+Shaanxi,subbituminous,25.37,5.68,18.665,1.19,2.083,0.8403
+Shaanxi,subbituminous,30.52,16.31,18.479,1.179,2.094,0.8482
+Shaanxi,bituminous,10.02,2.9,18.341,1.18,2.089,0.8475
+Shaanxi,bituminous,10.19,6.19,18.499,1.18,2.095,0.8475
+Shaanxi,subbituminous,33.88,4.89,18.799,1.197,2.072,0.8354
+Shaanxi,subbituminous,31.46,20.52,18.576,1.19,2.085,0.8403
+Shaanxi,subbituminous,23.04,20.98,18.462,1.185,2.093,0.8439
+Shaanxi,subbituminous,24.98,16.8,18.702,1.196,2.08,0.8361
+Shaanxi,subbituminous,16.72,8.73,18.48,1.183,2.091,0.8453
+Shaanxi,subbituminous,23.79,8.32,18.576,1.189,2.088,0.841
+Shaanxi,bituminous,7.39,5.78,18.654,1.19,2.086,0.8403
+Shaanxi,lignite,41.53,20.34,18.671,1.195,2.079,0.8368
+Shaanxi,subbituminous,32.12,8.09,19.489,1.239,2.029,0.8071
+Shaanxi,subbituminous,26.43,28.33,18.449,1.185,2.101,0.8439
+Shaanxi,subbituminous,40.47,28.64,17.307,1.192,2.071,0.8389
+Shaanxi,subbituminous,27.17,11.92,17.651,1.144,2.131,0.8741
+Shaanxi,subbituminous,14.78,7.09,18.244,1.174,2.1,0.8518
+Shaanxi,subbituminous,8.05,5.07,18.126,1.17,2.123,0.8547
+Shaanxi,subbituminous,13.27,10.87,18.162,1.171,2.106,0.854
+Shaanxi,subbituminous,33.79,28.27,18.076,1.159,2.293,0.8628
+Shaanxi,subbituminous,11.34,31.61,18.051,1.163,2.117,0.8598
+Liaoning,anthracite,12.49,27.69,18.479,1.184,2.077,0.8446
+Liaoning,subbituminous,33.05,18.35,18.785,1.199,2.077,0.834
+Liaoning,anthracite,31.57,43,18.447,1.179,2.317,0.8482
+Liaoning,subbituminous,28.36,8.12,18.265,1.173,2.103,0.8525
+Liaoning,subbituminous,33.24,7.39,17.887,1.151,2.135,0.8688
+Liaoning,bituminous,11.74,5.28,18.731,1.195,2.068,0.8368
+Liaoning,lignite,40,10.94,18.217,1.167,2.104,0.8569
+Liaoning,lignite,41.34,3.86,18.303,1.183,2.074,0.8453
+Liaoning,lignite,54.46,16.19,17.214,1.114,2.201,0.8977
+Liaoning,subbituminous,22.17,10.9,17.487,1.13,2.16,0.885
+Heilongjiang,subbituminous,38.97,6.46,18.48,1.186,2.077,0.8432
+Heilongjiang,subbituminous,25.56,14.84,18.587,1.19,2.071,0.8403
+Heilongjiang,subbituminous,20.09,10.28,18.756,1.203,2.055,0.8313
+Heilongjiang,lignite,44.73,16.59,18.807,1.204,2.052,0.8306
+Heilongjiang,subbituminous,26.09,11.93,18.762,1.201,2.054,0.8326
+Heilongjiang,lignite,38.25,17.81,18.869,1.206,2.047,0.8292
+Heilongjiang,subbituminous,32.2,17.23,18.454,1.181,2.081,0.8467
+Heilongjiang,subbituminous,35.69,12.25,18.389,1.181,2.082,0.8467
+Heilongjiang,subbituminous,32.27,13.9,18.65,1.196,2.067,0.8361
+Heilongjiang,subbituminous,38.12,18.28,18.659,1.199,2.059,0.834
+Shandong,bituminous,7.52,7.98,18.089,1.165,2.112,0.8584
+Shandong,bituminous,7.98,7.32,18.121,1.166,2.112,0.8576
+Shandong,subbituminous,31.74,24.29,18.048,1.163,2.122,0.8598
+Shandong,subbituminous,30.2,11.19,18.175,1.168,2.11,0.8562
+Shandong,bituminous,8.09,8.43,18.108,1.165,2.113,0.8584
+Shandong,subbituminous,22.84,11.9,18.27,1.174,2.102,0.8518
+Shandong,lignite,47.24,11.61,18.386,1.18,2.083,0.8475
+Shandong,subbituminous,21.61,8.02,18.689,1.201,2.047,0.8326
+Shandong,subbituminous,27.32,16.79,17.959,1.158,2.127,0.8636
+Shandong,lignite,37.41,21.95,17.98,1.16,2.113,0.8621
+Shandong,anthracite,41.91,24.96,18.49,1.183,2.085,0.8453
+Shandong,lignite,43.71,41.72,17.963,1.15,2.147,0.8696
+Shandong,lignite,36.48,17.45,17.764,1.142,2.163,0.8757
+Beijing,anthracite,14.63,19.5,18.011,1.157,2.121,0.8643
+Hebei,subbituminous,28.97,13.47,18.225,1.172,2.108,0.8532
+Hebei,bituminous,10.69,9.7,18.308,1.174,2.101,0.8518
+Hebei,bituminous,17.85,15.05,18.391,1.182,2.088,0.846
+Hebei,subbituminous,24.03,12.37,17.763,1.149,2.142,0.8703
+Hebei,bituminous,9.21,11.82,18.066,1.164,2.114,0.8591
+Hebei,subbituminous,23.93,11.18,17.709,1.146,2.147,0.8726
+Hebei,subbituminous,25.85,27.74,17.706,1.142,2.142,0.8757
+Hebei,lignite,40.43,27.49,18.282,1.175,2.099,0.8511
+Hebei,lignite,43.05,23.81,17.86,1.152,2.123,0.8681
+Henan,anthracite,10.08,8.77,18.079,1.163,2.12,0.8598
+Henan,anthracite,11.43,11.99,18.013,1.159,2.129,0.8628
+Henan,anthracite,14.11,13.32,17.851,1.151,2.143,0.8688
+Henan,subbituminous,27.22,16.47,18.094,1.165,2.127,0.8584
+Henan,subbituminous,38.82,14.58,18.109,1.169,2.124,0.8554
+Henan,subbituminous,27.72,14.67,18.072,1.167,2.13,0.8569
+Henan,anthracite,14.27,9.16,18.296,1.178,2.103,0.8489
+Sichuan,lignite,41.09,20.48,19.529,1.241,1.999,0.8058
+Sichuan,subbituminous,37.74,14.81,19.274,1.228,2.046,0.8143
+Sichuan,anthracite,30.59,9.06,18.915,1.205,2.076,0.8299
+Sichuan,anthracite,28.55,7.58,19.133,1.219,2.055,0.8203
+Chongqing,lignite,48.17,23.49,18.978,1.217,2.06,0.8217
+Chongqing,bituminous,21.88,10.4,19.527,1.246,2.026,0.8026
+Chongqing,anthracite,22.97,19.65,19.564,1.247,1.984,0.8019
+Chongqing,bituminous,17.29,10.62,18.628,1.187,2.086,0.8425
+Chongqing,lignite,51.03,60.67,18.63,1.193,2.081,0.8382
+Guizhou,subbituminous,34.73,16.52,21.196,1.185,2.084,0.8439
+Guizhou,lignite,42.98,2.33,20.144,1.293,1.939,0.7734
+Guizhou,lignite,40.18,40.28,18.997,1.209,2.05,0.8271
+Guizhou,subbituminous,27.76,5.29,21.766,1.383,1.791,0.7231
+Guizhou,subbituminous,34.65,21.61,19.062,1.204,2.073,0.8306
+Guizhou,anthracite,15.06,6.89,19.174,1.229,2.049,0.8137
+Guizhou,anthracite,19.48,6.37,20.091,1.282,1.96,0.78
+Guizhou,anthracite,31.27,4.56,19.353,1.239,2.031,0.8071
+Guizhou,anthracite,26.62,16.07,18.85,1.208,2.071,0.8278
+Guizhou,anthracite,36.35,22.23,18.843,1.208,2.073,0.8278
+Guizhou,anthracite,13.09,9.96,18.888,1.211,2.066,0.8258
+Guizhou,anthracite,17.19,9.72,18.746,1.201,2.083,0.8326
+Guizhou,anthracite,10.37,18.54,18.798,1.205,2.083,0.8299
+Guizhou,anthracite,25.42,34.14,18.727,1.201,2.088,0.8326
+Guizhou,anthracite,56.94,17.67,18.975,1.216,2.077,0.8224
+Guizhou,anthracite,58.04,48.21,18.702,1.204,2.082,0.8306
+Guizhou,anthracite,46.74,12.3,19.074,1.217,2.065,0.8217
+Guizhou,anthracite,45.78,36.3,19.07,1.224,2.072,0.817
+Guizhou,anthracite,29.96,8.35,19.227,1.228,2.061,0.8143
+Guizhou,anthracite,15.01,10.28,18.845,1.202,2.08,0.8319
+Guizhou,lignite,52.11,25.42,19.01,1.217,2.069,0.8217
+Guizhou,anthracite,54.09,24.2,19.125,1.226,2.063,0.8157
+Guizhou,anthracite,27.98,10.81,19.08,1.214,2.061,0.8237
+Guizhou,subbituminous,23.53,14.08,19.111,1.211,2.064,0.8258
+Guizhou,subbituminous,27.42,8.56,18.842,1.205,2.088,0.8299
+Guizhou,subbituminous,26.1,8.36,19.226,1.214,2.062,0.8237
+Guizhou,anthracite,33.13,20.96,19.155,1.223,2.076,0.8177
+Guizhou,subbituminous,28.29,30.95,18.407,1.184,2.117,0.8446
+Yunnan,anthracite,7.85,1.21,19.352,1.23,2.047,0.813
+Yunnan,anthracite,8.1,6.82,19.449,1.229,2.016,0.8137
+Yunnan,bituminous,12.11,9.81,18.916,1.199,2.078,0.834
+Yunnan,anthracite,9.82,16.75,18.897,1.199,2.075,0.834
+Yunnan,anthracite,8.95,16.51,18.892,1.196,2.071,0.8361
+Yunnan,subbituminous,19.06,9,18.783,1.195,2.087,0.8368
+Yunnan,subbituminous,23.84,10.32,18.522,1.183,2.114,0.8453
+Yunnan,subbituminous,36.22,12.56,18.898,1.206,2.082,0.8292
+Yunnan,subbituminous,35.36,9.03,18.766,1.193,2.084,0.8382
+Yunnan,lignite,61.18,12.54,18.879,1.205,2.093,0.8299
+Jiangsu,subbituminous,37.1,18.25,18.207,1.172,2.106,0.8532
+Jiangsu,subbituminous,28.24,15.29,18.587,1.189,2.081,0.841
+Jiangsu,subbituminous,35.42,6.41,18.278,1.171,2.11,0.854
+Jiangsu,subbituminous,19.55,13.25,18.134,1.166,2.119,0.8576
+Anhui,subbituminous,29.16,12.81,18.391,1.178,2.101,0.8489
+Anhui,subbituminous,13.44,10.97,18.361,1.177,2.096,0.8496
+Anhui,lignite,45.08,15.99,18.494,1.185,2.104,0.8439
+Anhui,lignite,38.6,19.78,18.345,1.176,2.097,0.8503
+Anhui,lignite,43.46,19.3,18.286,1.174,2.116,0.8518
+Anhui,subbituminous,33.57,14.26,18.399,1.179,2.1,0.8482
+Anhui,subbituminous,31.27,14.79,18.382,1.179,2.093,0.8482
+Hunan,anthracite,10.5,17.71,18.001,1.165,2.098,0.8584
+Hunan,anthracite,11.36,4.71,18.571,1.192,2.078,0.8389
