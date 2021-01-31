@@ -1,5 +1,6 @@
 # Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018.
 ![](https://zenodo.org/badge/DOI/10.5281/zenodo.4484122.svg "Zenodo DOI")
+![](https://zenodo.org/badge/DOI/10.5281/zenodo.4484137.svg "PM10 Dataset")
 
 ### Authors:
 Andrea Bazzano<sup>1,</sup>\*,
@@ -14,7 +15,7 @@ Marco Grotti<sup>1</sup>.
 
 \* corresponding author: andrea dot bazzano at edu dot unige dot it, orcid id: https://orcid.org/0000-0002-9353-3919
 
-This repository contains source code and additional supplementary materials from our manuscript, "Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018." Additional results can be found within supplementary-material.pdf. The main dataset has been archived on Zenodo for reproducibility (MISSING URL).
+This repository contains source code and additional supplementary materials from our manuscript, "Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018". Additional results can be found within supplementary-material.pdf. The main dataset with PM<sub>10</sub> and lead isotope ratio measured values has been archived on Zenodo for reproducibility (http://doi.org/10.5281/zenodo.4484137).
 Data, code and results for back-trajectory analysis are not included in this repository.
 
 The following instructions provide details on how to run the source code underlying the analysis, including replication of the main figures and results.
@@ -55,7 +56,7 @@ Running the entire script will require few seconds on most computers.
 
 ### Step Three:
 
-- Downloads the raw data sources used in the analysis. These data are publicly available, and have been archived (doi = MISSING URL) for reproducibility. These data require less than 50 kB of space.
+- Downloads the raw data sources used in the analysis. These data are publicly available and the main dataset has been archived (doi = http://doi.org/10.5281/zenodo.4484137) for reproducibility. These data require less than 50 kB of space.
 
 ### Step Four: 
 
