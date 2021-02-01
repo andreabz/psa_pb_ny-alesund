@@ -6,16 +6,16 @@
 #### Eichler 2012: Eichler, A., Tobler, L., Eyrikh, S., Gramlich, G., Malygina, N., Papina, T., Schwikowski, M., 2012. Three Centuries of Eastern European and Altai Lead Emissions Recorded in a Belukha Ice Core. Environ. Sci. Technol. 46, 4323–4330. https://doi.org/10.1021/es2039954
 #### This work: Bazzano, A., Bertinetti, B., Ardini, F., Cappelletti, D., Grotti M., 2021. Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018. Atmosphere
 #### Missing values are reported as NA.
-reference,pb208206,pb207206,u208206,u207206,nudge_x,nudge_y,label,note
-Asmerom 1993,2.0357,0.8157,0.0357,0.0127,-0.002,0.02,"UCC
+reference,pb208206,pb207206,u208206,u207206,label,note
+Asmerom 1993,2.0357,0.8157,0.0357,0.0127,"UCC
  (Asmeron, 1993)",model
-Bazzano 2017,2.0535,0.8224,0.0102,0.0034,-0.003,0.03,"diamictite debris
+Bazzano 2017,2.0535,0.8224,0.0102,0.0034,"diamictite debris
  (Bazzano, 2017)",regression
-Bazzano 2017,2.10032,0.8632,0.0023,0.0025,-0.02,0.03,"calculated anthropogenic
+Bazzano 2017,2.10032,0.8632,0.0023,0.0025,"calculated anthropogenic
  end-member",regression
-This work,2.04165,0.809752,0.0127,0.0119,0.01,-0.02,"calculated natural
+This work,2.04165,0.809752,0.0127,0.0119,"calculated natural
  end-member",regression on median
-Eichler 2012,2.1082,0.8674,0.0045,0.002,0.01,0.03,"Russian and Kazakhstan
+Eichler 2012,2.1082,0.8674,0.0045,0.002,"Russian and Kazakhstan
  Pb ores (Eichler, 2012)",weighted average
-Bi 2017,2.1025,0.8475,0.0035,0.0015,1,-1,"Chinese coals
+Bi 2017,2.1025,0.8475,0.0035,0.0015,"Chinese coals
  (Bi, 2017)",weighted average

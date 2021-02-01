@@ -43,7 +43,7 @@ The code has been tested with R version 4.0.3, "Bunny-Wunnies Freak Out" The fol
 
 Before running the code, make sure the required R packages have been installed.  Set the R working directory to the location of this README file. Input data need to be downloaded and saved in the `./dataset/` subdirectory of the R working directory, whereas figures generated running the code will be saved in the `./output/` subdirectory of the R working directory.
 
-Running the entire script will require few seconds on most computers.
+Running the entire script will require few minutes on most computers.
 
 ### Step One: 
 
@@ -59,11 +59,11 @@ Running the entire script will require few seconds on most computers.
 
 ### Step Four: 
 
-- Open the script `supplementary_material.R` in R and run the code. The script start defining some functions used in the following analysis. Textual and numerical results are presented citing the sections of the submitted manuscript. Tables and Figures are reproduced at the end of the script. Only figures are saved in `./output/` subdirectory.
+- Open the script `script.R` in R and run the code. The script start defining some functions used in the following analysis. Textual and numerical results are presented citing the sections of the submitted manuscript. Tables and Figures are reproduced at the end of the script. Only figures are saved in `./output/` subdirectory.
 
 ## Output
 
-Upon successful completion of `supplementary_material.R`, numerical and textual results are visualized on screen and figures are saved as PDFs and PNGs in the `./output/` folder. Example format includes `./output/fig1.png`, etc. These figures will look very similar, if not identical, to those found in the manuscript.
+Upon successful completion of `script.R`, numerical and textual results are visualized on screen and figures are saved as PDFs and PNGs in the `./output/` folder. Example format includes `./output/figure1.png`, etc. These figures will look very similar, if not identical, to those found in the manuscript.
 
 ## License
 The entire code is available under the GNU General Public license. See LICENSE.txt for more information

@@ -180,7 +180,6 @@ chinese_coals <- fread("dataset/chinese_coals.csv", skip = 3)
 # Some values resulted from the following elaborations.
 # pb20x20y columns should be read as 20xPb / 20yPb.
 # see reference column for author, year citations.
-# nudge_x and nudge_y will be used in plots as graphical parameters.
 # Missing values are reported as NA.
 endmembers <- fread("dataset/endmembers.csv", skip = 8)
 
