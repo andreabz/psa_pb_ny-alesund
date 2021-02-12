@@ -768,7 +768,7 @@ iso208207206_atm +
   geom_text_repel(data = 
       data.frame(pb208206 = c(1.99, 1.99, 1.9915),
                  pb207206 = c(0.871, 0.879, 0.880),
-                 label = c("95%-confindence interval\n of the data",
+                 label = c("95%-confidence interval\n of the data",
                            "95%-confidence interval\n of the mean",
                            "median")),
                            aes(
@@ -880,7 +880,7 @@ nya_cluster.plot <-
   # adjusting color for clusters
   scale_color_manual(name = element_blank(),
                      labels = c("cluster A: Central Asia",
-                                "cluster B: North-America"),
+                                "cluster B: North America"),
                      na.translate = FALSE,
                      drop = TRUE,
                      values = cbPalette[c(8, 4)]) +
@@ -2200,7 +2200,7 @@ geom_point(data = nya_pm[season == "summer",
   geom_text_repel(data = data.frame(
     pb208206 = c(1.99, 1.99, 1.9915),
     pb207206 = c(0.871, 0.879, 0.880),
-    label = c("95%-confindence interval\n of the data",
+    label = c("95%-confidence interval\n of the data",
               "95%-confidence interval\n of the mean",
                "median")),
                            aes(
@@ -2429,7 +2429,7 @@ ss1_plot <-
   # ajusting colors and names
   scale_color_manual(name = element_blank(),
                      labels = c("cluster A: Central Asia",
-                                "cluster B: North-America"),
+                                "cluster B: North America"),
                      na.translate = FALSE,
                      drop = TRUE,
                      values = cbPalette[c(8, 4)]) +
