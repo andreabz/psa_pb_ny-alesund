@@ -1,5 +1,5 @@
 # Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018.
-![](https://zenodo.org/badge/DOI/10.5281/zenodo.4484122.svg "Zenodo DOI")
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4484121.svg)](https://doi.org/10.5281/zenodo.4484121)
 
 ### Authors:
 Andrea Bazzano<sup>1,</sup>\*,
