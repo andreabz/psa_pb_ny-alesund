@@ -183,6 +183,12 @@ chinese_coals <- fread("dataset/chinese_coals.csv", skip = 3)
 # Missing values are reported as NA.
 endmembers <- fread("dataset/endmembers.csv", skip = 8)
 
+#### Table S2 ----
+# percentage of monthly BTs calculated by Hysplit from 2010 to 2018 
+# and associated to the different geographical macro-sector.
+table_s2 <- fread("dataset/back_trajectories.csv", skip = 6)
+table_s2[, month := factor(month, levels = tolower(month.name))]
+
 ############################# Section 3.1 #####################################
 # Only the data mentioned in this section of the manuscript are reported.
 # Data for tables and figures are reported in a separate section at the end
@@ -370,6 +376,7 @@ nya_gmm <- Mclust(
             )
 
 # summary of the model
+plot(nya_gmm, "BIC")
 nya_gmm_summary <-summary(nya_gmm, parameters = TRUE)
 # cluster 1 is cluster A: Central Asia
 # cluster 2 is cluster B: North America
@@ -2388,6 +2395,54 @@ ggarrange(nya_prop_plot, nya_conc_plot,
          width = 200, 
          height = 297,
          scale = 1.2,
+         dpi = 300,
+         unit = "mm")
+
+#### Figure 6 ----
+# Median of the fraction of back-trajectories belonging to clusters 
+# associated to the macro-sectors Eurasia, North America 
+# and Arctic Ocean for the period 2010-2018.
+
+# arrange the table in long format
+table_s2_melt <- melt(table_s2,
+     id.vars = c("year", "month"),
+     variable.name = "sector",
+     value.name = "bt")
+
+# define the sectors
+table_s2_melt[, sector := factor(sector, 
+                    levels = c("eurasia", "north_america", "arctic_ocean"))]
+
+# calculate median of BT% by month and sector
+table_s2_melt[, 
+     median_bts := median(bt, na.rm = TRUE), by = .(month, sector)][, 
+    .(month, sector, median_bts)] %>% unique %>%
+
+# plot the results in a stacked bar plot
+ggplot(aes(x = month, y = median_bts, fill = sector)) +
+  geom_col(position = position_fill(reverse = TRUE), col = "black") +
+  scale_x_discrete(labels = month.abb,
+                   name = NULL) +
+  scale_y_continuous(breaks = seq(0, 1, by = 0.25), 
+                     labels = seq(0, 100, by = 25),
+                     name = "BT (%)") +
+  scale_fill_manual(labels = c("Eurasia", "North America", "Arctic Ocean"),
+                    values = cbPalette[c(8, 4, 3)],
+                    name = NULL) +
+  theme_bw(base_size = theme.size) +
+  theme(legend.position = "top") +
+  
+  ggsave(file = "output/figure6.pdf",
+         device = cairo_pdf,
+         width = 297, 
+         height = 200,
+         scale = 1,
+         unit = "mm") + 
+  
+  ggsave(file = "output/figure6.png",
+         width = 297, 
+         height = 200,
+         scale = 1,
          dpi = 300,
          unit = "mm")
 
