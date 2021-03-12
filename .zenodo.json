@@ -5,7 +5,7 @@
     "related_identifiers": [
         {
             "scheme": "url", 
-            "identifier": "https://github.com/andreabz/psa_pb_ny-alesund/tree/v1.1.1", 
+            "identifier": "https://github.com/andreabz/psa_pb_ny-alesund/tree/v2.0.1", 
             "relation": "isSupplementTo", 
             "resource_type": "publication-preprint"
         }, 
@@ -16,7 +16,7 @@
         }
     ], 
     "publication_type": "preprint", 
-    "version": "v1.1.1", 
+    "version": "v2.0.1", 
     "upload_type": "publication", 
     "keywords": [
         "atmosphere", 
@@ -24,7 +24,7 @@
         "svalbard", 
         "analytical chemistry"
     ], 
-    "publication_date": "2021-02-21", 
+    "publication_date": "2021-03-12", 
     "creators": [
         {
             "orcid": "0000-0002-9353-3919", 
