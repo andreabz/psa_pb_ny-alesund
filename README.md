@@ -14,6 +14,9 @@ Marco Grotti<sup>1</sup>.
 
 \* corresponding author: andrea dot bazzano at edu dot unige dot it, orcid id: https://orcid.org/0000-0002-9353-3919
 
+![](graphical_abstract.png)
+
+
 This repository contains source code and additional supplementary materials from our manuscript, "Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018". Additional results can be found within supplementary-material.pdf. The main dataset with PM<sub>10</sub> and lead isotope ratio measured values has been archived on Zenodo for reproducibility (http://doi.org/10.5281/zenodo.4484137).
 Data, code and results for back-trajectory analysis are not included in this repository.
 
