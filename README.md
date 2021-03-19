@@ -1,4 +1,5 @@
 # Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018.
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4484121.svg)](https://doi.org/10.5281/zenodo.4484121)
 
 ### Authors:
@@ -21,6 +22,9 @@ This repository contains source code and additional supplementary materials from
 Data, code and results for back-trajectory analysis are not included in this repository.
 
 The following instructions provide details on how to run the source code underlying the analysis, including replication of the main figures and results.
+
+## How to cite
+Bazzano, A.; Bertinetti, S.; Ardini, F.; Cappelletti, D.; Grotti, M. Potential Source Areas for Atmospheric Lead Reaching Ny-Ålesund from 2010 to 2018. Atmosphere 2021, 12, 388, doi:[10.3390/atmos12030388.](https://doi.org/10.3390/atmos12030388)
 
 ## Requirements
 The code has been tested with R version 4.0.3, "Bunny-Wunnies Freak Out" The following R packages and their dependencies must be installed before the code will run successfully:
