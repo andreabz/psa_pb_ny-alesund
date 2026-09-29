@@ -1,33 +1,72 @@
-# Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018.
+# Potential source areas for atmospheric lead reaching Ny-Ålesund
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4484121.svg)](https://doi.org/10.5281/zenodo.4484121)
+This repository contains the **code and supplementary material** supporting the study:
 
-### Authors:
-Andrea Bazzano<sup>1,</sup>\*,
-Stefano Bertinetti<sup>1</sup>,
-Francisco Ardini<sup>1</sup>,
-David Cappelletti<sup>2</sup> and 
-Marco Grotti<sup>1</sup>.
+> Bazzano, A.; Bertinetti, S.; Ardini, F.; Cappelletti, D.; Grotti, M. *Potential Source Areas for Atmospheric Lead Reaching Ny-Ålesund from 2010 to 2018*. **Atmosphere** 2021, 12, 388.
 
-<sup>1</sup> Department of Chemistry and Industrial Chemistry, University of Genoa, via Dodecaneso 31, 16146, Genoa, Italy
+The work combines **PM10 concentrations, lead isotope ratios, statistical analysis, and atmospheric back-trajectory information** to investigate potential source areas contributing to atmospheric lead measured at Ny-Ålesund, Svalbard, between 2010 and 2018.
 
-<sup>2</sup> Department of Chemistry, Biology and Biotechnologies, University of Perugia, Via Elce Di Sotto 8, 06123, Perugia, Italy
+The repository is primarily a **research reproducibility archive**: it preserves the R code and supplementary outputs used to reproduce the statistical analyses and the main figures associated with the paper.
 
-\* corresponding author: andrea dot bazzano at edu dot unige dot it, orcid id: https://orcid.org/0000-0002-9353-3919
+## Scientific context
 
-![](graphical_abstract.png)
+Atmospheric lead at Arctic monitoring sites can originate from sources far from the sampling location.
 
+The analysis therefore combines two complementary types of information:
 
-This repository contains source code and additional supplementary materials from our manuscript, "Supplementary material for Potential source areas for atmospheric lead reaching Ny-Ålesund from 2010 to 2018". Additional results can be found within supplementary-material.pdf. The main dataset with PM<sub>10</sub> and lead isotope ratio measured values has been archived on Zenodo for reproducibility (http://doi.org/10.5281/zenodo.4484137).
-Data, code and results for back-trajectory analysis are not included in this repository.
+- **chemical measurements**, including PM10 and lead isotope ratios;
+- **atmospheric transport information**, used to investigate the geographical context of the observations.
 
-The following instructions provide details on how to run the source code underlying the analysis, including replication of the main figures and results.
+The statistical analysis explores the distribution and relationships within the measured dataset and supports the interpretation of potential source areas.
 
-## How to cite
-Bazzano, A.; Bertinetti, S.; Ardini, F.; Cappelletti, D.; Grotti, M. Potential Source Areas for Atmospheric Lead Reaching Ny-Ålesund from 2010 to 2018. Atmosphere 2021, 12, 388, doi:[10.3390/atmos12030388.](https://doi.org/10.3390/atmos12030388)
+The repository does **not** contain the complete back-trajectory analysis workflow. The code, data and results associated with that part of the study are outside the scope of this archive.
+
+## Data and reproducibility
+
+The main PM10 and lead-isotope dataset used in the study is archived separately on **Zenodo**:
+
+**DOI:** 10.5281/zenodo.4484137
+
+The repository therefore separates the reproducibility components into:
+
+1. source code for the statistical analysis;
+2. supplementary material and generated results;
+3. the archived analytical dataset;
+4. the published scientific article.
+
+This makes it possible to distinguish the code preserved here from the external data resources required to reproduce the analysis.
+
+## Repository workflow
+
+The main analysis is contained in:
+
+```text
+script.R
+```
+
+The script:
+
+1. loads the required R packages;
+2. creates the local `dataset/` and `output/` directories;
+3. downloads or prepares the required input data;
+4. defines functions used throughout the analysis;
+5. performs the statistical analyses;
+6. reproduces numerical and textual results reported in the manuscript;
+7. generates the main figures and saves them as PDF and PNG files.
+
+The generated figures are written to:
+
+```text
+output/
+```
+
+The workflow is intentionally close to the analysis used for the publication, so that the connection between code, results, figures and manuscript sections remains explicit.
 
 ## Requirements
-The code has been tested with R version 4.0.3, "Bunny-Wunnies Freak Out" The following R packages and their dependencies must be installed before the code will run successfully:
+
+The original analysis was developed and tested with **R 4.0.3**.
+
+The code depends on the following packages:
 
 - `data.table`
 - `dplyr`
@@ -46,31 +85,56 @@ The code has been tested with R version 4.0.3, "Bunny-Wunnies Freak Out" The fol
 - `patchwork`
 - `scales`
 
-## Instructions
+This is a research archive from the original publication rather than a newly structured R package. The dependency list is therefore preserved to support reproduction of the historical analysis.
 
-Before running the code, make sure the required R packages have been installed.  Set the R working directory to the location of this README file. Input data need to be downloaded and saved in the `./dataset/` subdirectory of the R working directory, whereas figures generated running the code will be saved in the `./output/` subdirectory of the R working directory.
+## Running the analysis
 
-Running the entire script will require few minutes on most computers.
+Clone the repository and open `script.R` in R.
 
-### Step One: 
+The input data should be available in:
 
-- Loads required packages into R.
+```text
+dataset/
+```
 
-### Step Two: 
+The analysis can then be run from the repository directory.
 
-- Creates `./dataset/` and `./output/` subdirectories, which will hold the underlying data sources and analysis output, respectively.
+On successful completion, numerical and textual results are printed to the R session and the reproduced figures are saved in:
 
-### Step Three:
+```text
+output/
+```
 
-- Downloads the raw data sources used in the analysis. These data are publicly available in the repository and the main dataset has been archived on Zenodo for reproducibility (doi = http://doi.org/10.5281/zenodo.4484137). Input data require less than 50 kB of space.
+The exact appearance of figures may depend on the R version and package versions used to run the historical code.
 
-### Step Four: 
+## Publication and citation
 
-- Open the script `script.R` in R and run the code. The script start defining some functions used in the following analysis. Textual and numerical results are presented citing the sections of the submitted manuscript. Tables and Figures are reproduced at the end of the script. Only figures are saved in `./output/` subdirectory.
+If you use the code or supplementary material, please cite the original article:
 
-## Output
+> Bazzano, A.; Bertinetti, S.; Ardini, F.; Cappelletti, D.; Grotti, M. Potential Source Areas for Atmospheric Lead Reaching Ny-Ålesund from 2010 to 2018. *Atmosphere* 2021, 12, 388. https://doi.org/10.3390/atmos12030388
 
-Upon successful completion of `script.R`, numerical and textual results are visualized on screen and figures are saved as PDFs and PNGs in the `./output/` folder. Example format includes `./output/figure1.png`, etc. These figures will look very similar, if not identical, to those found in the manuscript.
+The dataset used in the analysis is archived separately on Zenodo:
+
+https://doi.org/10.5281/zenodo.4484137
+
+## Supplementary material
+
+Additional results are available in:
+
+```text
+supplementary-material.pdf
+```
+
+The repository also includes the graphical abstract used to describe the study.
+
+## Scope and limitations
+
+This repository should be read together with the published article.
+
+It provides the source code and supplementary material for the statistical component of the study, but it does not reproduce every element of the broader atmospheric transport analysis. In particular, **back-trajectory data, code and results are not included here**.
+
+The repository is therefore best understood as a reproducibility archive for a published research analysis rather than as a general-purpose workflow for atmospheric source apportionment.
 
 ## License
-The entire code is available under the GNU General Public license. See LICENSE.txt for more information
+
+The code is released under the **GNU General Public License**. See `LICENSE.txt` for details.
